@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 *{
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
@@ -8,7 +15,7 @@ body{
     min-width: 290px;
     color: white;
     font-size: 20px;
-  line-height: 2.8rem;
+  line-height: 2.2rem;
 }
 #PHP{
     
