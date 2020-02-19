@@ -2,17 +2,26 @@
 <html lang="en"> 
 <head>
 <title>Tech</title>
- <meta charset="UTF-8">
- <link rel="stylesheet" type="text/css" href="stylesheets.css">
- <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+<meta name="generator" content="Jekyll v3.8.6">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> 
+ <link rel="shortcut icon" type="image/png"  href="power.jpg">
+ <link rel ="stylesheet" href="stylesheets.css">
 </head>
 
 <body>  
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <h1>FullStack Web Development</h1>
+    <h1 class="text-center">FullStack Web Development</h1>
     <nav id="navbar">
         <header>FullStack Documentation</header>
-        <ul>
+        <ul class="list-unstyled">
             <li><a class="nav-link" href="#Introduction">Introduction</a></li>
             <li><a class="nav-link" href="#front_backend">Front End Vs Backend</a></li>
             <li><a class="nav-link" href="#front_end">Front End Technologies</a></li>
@@ -25,6 +34,7 @@
             <li><a class="nav-link" href="#SQL">SQL</a></li>
         </ul>
     </nav>
+    <div class="container-fluid">
     <main id="main-doc">
         <section class="main-section" id="Introduction">
             <header>Introduction</header>
@@ -76,16 +86,24 @@
                 The salaries can vary dramatically based on your experience (noted by junior, lead, and senior titles) and based on your specialties. Specialties also have an effect on salary, as noted by the difference in salary between a senior Javascript web developer who outearns the senior frontend developer.
                 
                 In addition, on sites like UpWork you’ll be able to find developers who charge anywhere from $10 per hour and to over $150 per hour. And so if you’re looking to hire a dev, you really must do your homework (aka. take time to review the developer’s portfolio, interview, and ask for references from past employers) in order to find the right match.
-            </p></p>
+            </p></p> 
+            
         </section>
 
         <section class="main-section" id="front_end">
             <header>Front End Technologies</header>
+
             <p>
                 Front end technologies are used for managing the user-facing components of the software product. A Full-stack developer should know how the software application should look like and what should be the flow of an app.
             </p>
             <p>
-               
+                <p>Front  End Technologies</p>
+             <ul>
+                 <li>Html</li>
+                 <li>CSS</li>
+                 <li>JAVASCRIPT</li>
+                 <li>JQuery</li>
+             </ul>
 
         </section>
 
@@ -98,37 +116,63 @@
             <P>
                 Backend is responsible for interacting with the front end to receive and send information to be displayed on the web app. Whether you fill a form on the app, request to buy an item or save an item to the card, the app’s front end sends a request to the server which fetches information and displays it.
             </P>
-
-        </section>
+            <p>Back  End Technologies</p>
+            <ul>
+                <li>ASP</li>
+                <li>SQL</li>
+                <li>PHP</li>
+                <li>NODES</li>
+            </ul>
+        </section> 
+       
+        
 
         <section class="main-section" id="HTML">
-            <header>HTML</header>
+            <header class="text-center">HTML</header>
+            <div class="row">
+            <div class="col-xs-6">
+           
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png">
-
+            </div>
+            <div class="col-md-6">
             <p>
                 HTML(HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).
             </p>
             <p>
                 "Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.
             </p>
+            </div>
+            </div>
 
         </section>
+        
 
         <section class="main-section" id="CSS">
-            <header>CSS</header>
+            <header class="text-center">CSS</header>
+            <div class="row">
+                <div class="col-xs-6">
             <img id="css-img" src="https://cdn.freebiesupply.com/logos/thumbs/2x/css3-logo.png">
+                </div>
+
+                <div class="col-md-6">
 
             <p>
                 <em>Cascading Style Sheets (CSS)</em> is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
 
                 CSS is one of the core languages of the open Web and is standardized across Web browsers according to the W3C specification. Developed in levels, CSS1 is now obsolete, CSS2.1 is a recommendation, and CSS3, now split into smaller modules, is progressing on the standardization track.
             </p>
+                </div>
+            </div>
 
         </section>
 
         <section class="main-section" id="JAVASCRIPT">
-            <header>JAVASCRIPT</header>
+            <header class="text-center">JAVASCRIPT</header>
+            <div class="row">
+                <div class="col-xs-2">
             <img src="https://static.javatpoint.com/images/javascript/javascript_logo.png">
+                </div>
+                <div class="col-md-4">
             <p>
                 JavaScript <em>(or "JS")</em> is a programming language used most often for dynamic client-side scripts on webpages, but it is also often used on the server-side, using packages such as <em>Node.js.</em>
 
@@ -136,36 +180,137 @@
 
                JavaScript is mostly used in the browser, enabling developers to manipulate webpage content through the DOM, manipulate data with AJAX and IndexedDB, draw graphics with canvas, interact with the device running the browser through various APIs, and more. JavaScript is one of the world's most commonly-used languages, owing to the recent growth and performance improvement of APIs available in browsers.
             </p>
+                </div> 
+                <div class="col-md-6">
+            <p id="codeHeader">Some JavaScript Codes(Constructors)</p>
+                <code>
+                var  Person(name){
+                    this.name = name;
+                    this.sayName = function(){
+                    console.log(`hi ${this.name});
+                    }
+                    var person1 = new Person('jack');
+                    var person2 = new Person ('mike');
 
+                    console.log(person1.name);
+                    console.log(person2.name);
+
+                    person1.sayName();
+                    person2.sayName();
+                  }
+              </code>
+
+              <code>
+                var  Person(name){
+                    this.name = name;
+                    this.sayName = function(){
+                    console.log(`hi ${this.name});
+                    }
+                    var person1 = new Person('jack');
+                    var person2 = new Person ('mike');
+
+                    console.log(person1.name);
+                    console.log(person2.name);
+
+                    person1.sayName();
+                    person2.sayName();
+                  }
+              </code>
+
+              <code>
+                var  Person(name){
+                    this.name = name;
+                    this.sayName = function(){
+                    console.log(`hi ${this.name});
+                    }
+                    var person1 = new Person('jack');
+                    var person2 = new Person ('mike');
+
+                    console.log(person1.name);
+                    console.log(person2.name);
+
+                    person1.sayName();
+                    person2.sayName();
+                  }
+              </code>
+
+              <code>
+                var  Person(name){
+                    this.name = name;
+                    this.sayName = function(){
+                    console.log(`hi ${this.name});
+                    }
+                    var person1 = new Person('jack');
+                    var person2 = new Person ('mike');
+
+                    console.log(person1.name);
+                    console.log(person2.name);
+
+                    person1.sayName();
+                    person2.sayName();
+                  }
+              </code>
+
+              <code>
+                var  Person(name){
+                    this.name = name;
+                    this.sayName = function(){
+                    console.log(`hi ${this.name});
+                    }
+                    var person1 = new Person('jack');
+                    var person2 = new Person ('mike');
+
+                    console.log(person1.name);
+                    console.log(person2.name);
+
+                    person1.sayName();
+                    person2.sayName();
+                  }
+              </code>
+                </div>
+            </div>
         </section>
 
         <section class="main-section" id="NODES_JS">
-            <header>NODES.JS</header>
+            <header class="text-center">NODES.JS</header>
+            <div class="row">
+                <div class="col-xs-6">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png">
+    </div>
+    <div class="col-md-6">
         <p>
             Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js represents a "JavaScript everywhere" paradigm,[6] unifying web-application development around a single programming language, rather than different languages for server- and client-side scripts.
 
            Though .js is the standard filename extension for JavaScript code, the name <blockquote"Node.js"></blockquote> doesn't refer to a particular file in this context and is merely the name of the product. Node.js has an event-driven architecture capable of asynchronous I/O.
         </p>
+    </div>
+            </div>
         </section>
 
         <section class="main-section" id="PHP">
-            <header>PHP</header>
+            <header class="text-center">PHP</header>
+            <div class="row">
+                <div class="col-xs-6">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRwNh8hd2Ka9pRHKaE9CLwiczTdwkspgmh7ZrxqaGwHMobUCtVM">
-
+                </div>
+                <div class="col-md-6">
           <p>
            PHPis a general-purpose programming language originally designed for web development. It was originally created by Rasmus Lerdorf in 1994;[5] the PHP reference implementation is now produced by The PHP Group.[6] PHP originally stood for Personal Home Page,[5] but it now stands for the recursive initialism PHP: Hypertext Preprocessor.[7]
 
             PHP code may be executed with a command line interface (CLI), embedded into HTML code, or used in combination with various web template systems, web content management systems, and web frameworks. PHP code is usually processed by a PHP interpreter implemented as a module in a web server or as a Common Gateway Interface (CGI) executable. The web server outputs the results of the interpreted and executed PHP code, which may be any type of data, such as generated HTML code or binary image data. PHP can be used for many programming tasks outside of the web context, such as standalone
 
           </p>
-
-
+          </div>
+            </div>
         </section>
 
         <section class="main-section" id="SQL">
-            <header>SQL</header>
+            <header class="text-center">SQL</header>
+            <div class="row">
+                <div class="col-xs-6">
             <img src="https://lh3.googleusercontent.com/proxy/CJGY9ANliQx4YNC9kIIVvg7RbZeCUDYWHrg_9UIs5YwW7uZIHU87xwh1eUEhyAZXeDvtxckDA5t4kIARNPHv9eAyS8SeMJ2_bx9avy3SCHbzwPHT3Q">
+                </div>
+                <div class="col-md-6">
             <p>
                 <em>Structured Query Language)</em> is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS). It is particularly useful in handling structured data, i.e. data incorporating relations among entities and variables.
                 
@@ -173,9 +318,12 @@
                 
                 SQL became a standard of the American National Standards Institute (ANSI) in 1986, and of the International Organization for Standardization (ISO) in 1987.
             </p>
+            </div>
+            </div>
 
         </section>
 
     </main>
+    </div>
 </body>
 </html>
